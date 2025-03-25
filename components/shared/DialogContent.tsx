@@ -20,10 +20,27 @@ const DialogContent: FC<Props> = ({ selectedProject }) => {
       </DialogHeader>
 
       <CarouselContent selectedProject={selectedProject} />
-      <p className="text-gray-600 mt-4">{selectedProject?.description}</p>
-      <Button variant="outline" className="mt-4">
-        Подробнее
-      </Button>
+      <p className="text-[#a8adb4] mt-4">{selectedProject?.description}</p>
+      {selectedProject?.title == "Blog" ? (
+        <>
+          <a href={selectedProject?.github[0]} target="_blank">
+            <Button variant="outline" className="w-full mt-4">
+              Go to GitHub repository - Frontend
+            </Button>
+          </a>
+          <a href={selectedProject?.github[1]} target="_blank">
+            <Button variant="outline" className="w-full">
+              Go to GitHub repository - Backend
+            </Button>
+          </a>
+        </>
+      ) : (
+        <a href={selectedProject?.github[0]} target="_blank">
+          <Button variant="outline" className="w-full mt-4">
+            Go to GitHub repository
+          </Button>
+        </a>
+      )}
     </DialogContent_>
   );
 };

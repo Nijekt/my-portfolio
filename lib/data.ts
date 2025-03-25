@@ -83,6 +83,10 @@ export const projectsData: ProjectType[] = [
     id: 1,
     title: "Blog",
     image: [blog5, blog1, blog2, blog3, blog4, blog6],
+    github: [
+      "https://github.com/Nijekt/reactMyBlogFront",
+      "https://github.com/Nijekt/reactMyBlockBack",
+    ],
     description:
       "A full-stack platform where users can create, edit, and manage articles. Built with React, Node.js, and MongoDB, it features JWT authentication and Redux Toolkit for state management.",
   },
@@ -90,6 +94,7 @@ export const projectsData: ProjectType[] = [
     id: 4,
     title: "Messenger React Native",
     image: [mess5, mess6],
+    github: ["https://github.com/Nijekt/chat-native"],
     description:
       "A real-time chat app built with React Native and Expo. Uses Firebase Firestore for instant messaging and Firebase Auth for secure logins.",
   },
@@ -97,6 +102,7 @@ export const projectsData: ProjectType[] = [
     id: 3,
     title: "Mini Netflix Clone",
     image: [netflix2, netflix1, netflix3, netflix4],
+    github: ["https://github.com/Nijekt/next-netflix-clone"],
     description:
       "A streaming platform prototype developed with Next.js and TypeScript. Features authentication via NextAuth, server-side rendering for performance, and Zustand for state management.",
   },
@@ -104,14 +110,15 @@ export const projectsData: ProjectType[] = [
     id: 2,
     title: "React Pizza",
     image: [pizza1, pizza2, pizza3, pizza4],
+    github: ["https://github.com/Nijekt/react_pizza"],
     description:
       "An interactive app for ordering pizzas, built with React and Redux Toolkit. Includes a dynamic shopping cart, filtering options, and real-time price updates.",
   },
-
   {
     id: 5,
-    title: "React Native Todo",
+    title: "React Native Notes",
     image: [todo6, todo7],
+    github: ["https://github.com/Nijekt/react_native_notes"],
     description:
       "A cross-platform note-taking app with real-time syncing via Appwrite. Features a sleek UI, modal-based note input, and seamless data management.",
   },
@@ -119,6 +126,7 @@ export const projectsData: ProjectType[] = [
     id: 7,
     title: "Message Board",
     image: [msg],
+    github: ["https://github.com/Nijekt/Message-board"],
     description:
       "A discussion platform built with Next.js and Express, using MySQL for data storage. Features user authentication, Redux-powered state management, and a Tailwind-styled UI.",
   },
@@ -126,6 +134,8 @@ export const projectsData: ProjectType[] = [
     id: 6,
     title: "Fake Store",
     image: [store1, store2, store3, store4, store5],
-    description: "",
+    github: ["https://github.com/Nijekt/fakeStore"],
+    description:
+      "An interactive application built with React and Basic Redux. Fetches product data from a public API, enabling users to browse, filter, and add items to a dynamic shopping cart. Features include real-time price calculations, product detail pages, and a seamless user experience.",
   },
 ];
