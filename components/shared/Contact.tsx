@@ -10,8 +10,9 @@ const Contact = () => {
         <div className="flex flex-col items-center">
           <h2 className="text-4xl font-bold mb-5">Contact Me</h2>
           <p className="max-w-[520px] text-2xl text-center text-[#a8adb4] mb-20">
-            I'm excited to connect with you!. Let's start a conversation – I'm
-            just a message away from exploring new opportunities together
+            I&apos;m excited to connect with you!. Let&apos;s start a
+            conversation – I&apos;m just a message away from exploring new
+            opportunities together
           </p>
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">

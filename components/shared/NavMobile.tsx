@@ -5,12 +5,10 @@ import {
   Sheet,
   SheetClose,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { Button } from "../ui/button";
 import { navigation } from "@/lib/data";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";

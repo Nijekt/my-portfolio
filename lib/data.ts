@@ -28,17 +28,8 @@ import netflix1 from "../public/port-images/netflix/netflix1.png";
 import netflix2 from "../public/port-images/netflix/netflix2.png";
 import netflix3 from "../public/port-images/netflix/netflix3.png";
 import netflix4 from "../public/port-images/netflix/netflix4.png";
-import mess1 from "../public/port-images/messanger/mess1.jpg";
-import mess2 from "../public/port-images/messanger/mess2.jpg";
-import mess3 from "../public/port-images/messanger/mess3.jpg";
-import mess4 from "../public/port-images/messanger/mess4.jpg";
 import mess5 from "../public/port-images/messanger/mess5.png";
 import mess6 from "../public/port-images/messanger/mess6.png";
-import todo1 from "../public/port-images/to-do/todo1.jpg";
-import todo2 from "../public/port-images/to-do/todo2.jpg";
-import todo3 from "../public/port-images/to-do/todo3.jpg";
-import todo4 from "../public/port-images/to-do/todo4.jpg";
-import todo5 from "../public/port-images/to-do/todo5.jpg";
 import todo6 from "../public/port-images/to-do/todo6.png";
 import todo7 from "../public/port-images/to-do/todo7.png";
 import store1 from "../public/port-images/fake-store/store1.png";
@@ -48,14 +39,12 @@ import store4 from "../public/port-images/fake-store/store4.png";
 import store5 from "../public/port-images/fake-store/store5.png";
 import msg from "../public/port-images/msg/msg.png";
 import { ProjectType } from "./types";
-import rnd from "../public/rnd.png";
 
 export const navigation = [
   { name: "Home", href: "home" },
   { name: "Tech Stack", href: "tech" },
   { name: "Portfolio", href: "portfolio" },
   { name: "About", href: "about" },
-  // { name: "Skills", href: "skills" },
   { name: "Contact", href: "contact" },
 ];
 
@@ -75,7 +64,6 @@ export const techStack = [
   { name: "Insomnia", href: "insomnia", image: insomnia },
   { name: "MongoDB", href: "mongo", image: mongo },
   { name: "Sass", href: "sass", image: sass },
-  // { name: "PostgreSQL", href: "postgre", image: postgre },
 ];
 
 export const projectsData: ProjectType[] = [
