@@ -12,7 +12,6 @@ import post from "../public/assets/post.png";
 import insomnia from "../public/assets/Insomnia.png";
 import mongo from "../public/assets/mongo.png";
 import sass from "../public/assets/sass.png";
-import postgre from "../public/assets/postgre.png";
 import reactNative from "../public/assets/react-native.png";
 import pizza1 from "../public/port-images/pizza/pizza1.png";
 import pizza2 from "../public/port-images/pizza/pizza2.png";
