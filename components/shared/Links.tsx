@@ -7,7 +7,7 @@ const Links = () => {
   return (
     <div className="flex gap-8">
       <a
-        href="https://www.linkedin.com/in/snizhko-nikita-639805252/"
+        href="https://www.linkedin.com/in/nikita-snizhko-639805252/"
         target="_blank"
       >
         <LuLinkedin size={17} color="#ceae7d" />

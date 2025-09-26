@@ -17,7 +17,7 @@ const Welcome = () => {
             </p>
             <Button variant={"default"} className="w-40 h-13">
               <a
-                href="https://www.linkedin.com/in/snizhko-nikita-639805252/"
+                href="https://www.linkedin.com/in/nikita-snizhko-639805252/"
                 target="_blank"
               >
                 Reach out to me

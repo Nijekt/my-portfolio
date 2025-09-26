@@ -12,6 +12,7 @@ import post from "../public/assets/post.png";
 import insomnia from "../public/assets/Insomnia.png";
 import mongo from "../public/assets/mongo.png";
 import sass from "../public/assets/sass.png";
+import angular from "../public/assets/angular.png";
 import reactNative from "../public/assets/react-native.png";
 import pizza1 from "../public/port-images/pizza/pizza1.png";
 import pizza2 from "../public/port-images/pizza/pizza2.png";
@@ -53,7 +54,7 @@ export const techStack = [
   { name: "HTML", href: "html", image: html },
   { name: "CSS", href: "css", image: css },
   { name: "React", href: "react", image: react },
-  { name: "React Native", href: "react-native", image: reactNative },
+  { name: "Angular", href: "angular", image: angular },
   { name: "Next.js", href: "next", image: nextjs },
   { name: "Tailwind", href: "tailwind", image: tailwind },
   { name: "Git", href: "git", image: git },
