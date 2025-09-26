@@ -13,7 +13,6 @@ import insomnia from "../public/assets/Insomnia.png";
 import mongo from "../public/assets/mongo.png";
 import sass from "../public/assets/sass.png";
 import angular from "../public/assets/angular.png";
-import reactNative from "../public/assets/react-native.png";
 import pizza1 from "../public/port-images/pizza/pizza1.png";
 import pizza2 from "../public/port-images/pizza/pizza2.png";
 import pizza3 from "../public/port-images/pizza/pizza3.png";
